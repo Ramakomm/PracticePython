@@ -1,7 +1,6 @@
 def makenewList(l):
     newList = []
-    newList.append(l[0])
-    newList.append(l[-1])
+    newList = [l[0],l[-1]]
     print(newList)
 
 import random
